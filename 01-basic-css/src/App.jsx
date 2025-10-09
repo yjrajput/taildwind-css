@@ -1,5 +1,6 @@
 import './App.css';
 import Colors from './components/colors/Colors';
+import Container from './components/container-class/Container';
 import Height from './components/height/Height';
 import Margin from './components/margin/Margin';
 import Padding from './components/padding/Padding';
@@ -11,7 +12,8 @@ const App = () => {
       {/* <Padding/> */}
       {/* <Margin/> */}
       {/* <Width/> */}
-      <Height/>
+      {/* <Height/> */}
+      <Container/>
     </div>
   )
 }
