@@ -1,4 +1,5 @@
 import './App.css';
+import Background from './components/background-classes/Background';
 import Colors from './components/colors/Colors';
 import Container from './components/container-class/Container';
 import Height from './components/height/Height';
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Margin/> */}
       {/* <Width/> */}
       {/* <Height/> */}
-      <Container/>
+      {/* <Container/> */}
+      <Background/>
     </div>
   )
 }
