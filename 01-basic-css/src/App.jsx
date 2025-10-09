@@ -1,6 +1,7 @@
 import './App.css';
 import Background from './components/background-classes/Background';
 import Colors from './components/colors/Colors';
+import Columns from './components/columns/Columns';
 import Container from './components/container-class/Container';
 import Height from './components/height/Height';
 import Interractive from './components/interractive-css/Interractive';
@@ -17,7 +18,8 @@ const App = () => {
       {/* <Height/> */}
       {/* <Container/> */}
       {/* <Background/> */}
-      <Interractive/>
+      {/* <Interractive/> */}
+      <Columns/>
     </div>
   )
 }
